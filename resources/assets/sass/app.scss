@@ -1,0 +1,38 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.video-container {
+    margin: 0px auto;
+    position: relative;
+    box-shadow: 1px 1px 10px gray;
+    width: 560px;
+    height: 420px;
+
+    .my-video {
+        width: 100px;
+        height: 100px;
+        left: 10px;
+        bottom: 10px;
+        position: absolute;
+        border: 4px solid coral;
+        border-radius: 20%;
+        z-index: 2;
+    }
+    .user-video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}
